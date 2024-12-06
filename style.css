@@ -36,11 +36,15 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-/* .wrapper {
-  position: relative;
+.wrapper {
+  /* position: relative;
   width: 100%;
   height: 100vh;
   background-color: black;
   background-size: cover;
-  background-repeat: no-repeat;
-} */
+  background-repeat: no-repeat; */
+  overflow-x: hidden;
+}
+.spacing {
+  height: 100vh;
+}
