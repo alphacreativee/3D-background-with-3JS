@@ -16,10 +16,10 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 container.appendChild(renderer.domElement);
 //Khởi tạo Hình học (Geometry) và Vật liệu (Material)
-// const geometry = new THREE.PlanGeometry(14, 8, 15, 9);
+const imageUrl = "./images/img2.png";
 const geometry = new THREE.PlaneGeometry(20, 8, 21, 9);
 const material = new THREE.MeshBasicMaterial({
-  map: loader.load("images/img2.png"),
+  map: loader.load(imageUrl),
 });
 const mesh = new THREE.Mesh(geometry, material);
 
